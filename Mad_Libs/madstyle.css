@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(180, 100%, 80%);
+}
+.labels{
+    font-size: 3em;
+}
+#div1{
+    text-align: center;
+    border: 6px solid;
+}
+h1{
+    font-size: 3em;
+}
+#result{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div2{
+    border: 4px solid;
+    min-height: 200px;
+}
+.inputs{
+    width: 190px;
+    height: 50px;
+    font-size: 1.5em;
+}
+#generate{
+    font-size: 3em;
+    background-color: hsl(140, 100%, 70%);
+    transition: transform 0.3s ease;
+}
+#generate:hover{
+    transform: scale(2,2);
+    background-color: hsl(140, 100%, 50%);
+}
+#generate:active{
+    background-color: hsl(140, 100%, 30%);
+}
